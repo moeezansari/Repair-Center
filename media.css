@@ -1,0 +1,116 @@
+/*=========================================*/
+/*            600px               */
+/*=========================================*/
+@media (max-width:600px) {
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .element1{
+        width: 100% !important;
+    }
+}
+
+
+
+
+/*=========================================*/
+/*            992px               */
+/*=========================================*/
+@media (max-width:992px) {
+    .icon{
+        display: block;
+    }
+
+    
+}
+
+
+/*=========================================*/
+/*            1024px               */
+/*=========================================*/
+@media (max-width:1024px) {
+   
+    .navbar{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    #owan-1{
+        height: 100x;
+        width: 140px;
+        top: 270px;
+    }
+    #machine{
+        width: 100px;
+        height: 180px;
+        top: 250px;
+    }
+    #washing{
+        height: 240px;
+        width: 194px;
+        top: 255px;
+    }
+
+    
+}
+
+/*=========================================*/
+/*            1200px               */
+/*=========================================*/
+
+
+@media (max-width: 1200px) {
+    
+    .section-3{
+        margin-left: 5%;
+        gap: 1px;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+/*=========================================*/
+/*            1440px               */
+/*=========================================*/
+
+@media (max-width: 1440px) {
+    .element2{
+        width: 850px;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar .time{
+        display: none
+    }
+    .navbar .location{
+      display: none;
+    }
+    .navbar .phone{
+      display: none;  
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       margin-left: 300px;
+    }
+    .navbar button{
+        margin-right: 300px;
+    }
+    .icon{
+        display: block;
+    }
+}
+@media (max-width:1200px) {
+    .navbar .time{
+        display: none;
+    }
+    
+}
